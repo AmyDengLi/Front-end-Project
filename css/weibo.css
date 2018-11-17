@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	background-color: #8ED5B3;
+}
+body{
+	background:url('../images/body_bg.jpg') no-repeat center 0;
+}
+.nav{
+	width: 100%;
+	height: 48px;
+}
+.nav>img{
+	width: 100%;
+}
+.content{
+	width: 1000px;
+	height: 668px;
+	margin:10px auto;
+	/*overflow: hidden;*/
+}
+.content .Left{
+	float: left;
+	width: 150px;
+}
+.content .Left img{
+	width: 100%;
+}
+.content .Right{
+	float: right;
+	width: 250px;
+}
+.content .Right img{
+	width: 100%;
+}
+.content .Center{
+	width: 600px;
+	height: 168px;
+	float: left;
+	position: relative;
+}
+.content .Center img{
+	width: 100%;
+	height: 100%;
+}
+.content .Center .comment{
+	width: 576px;
+	height: 80px;
+	position: absolute;
+	top: 40px;
+	left: 11px;
+	resize: none;  /*使得文本没有拖拽效果*/
+	outline: none;
+}
+.content .Center .btn{
+	width: 82px;
+	height: 30px;
+	background-color: red;
+	border:none;
+	position: absolute;
+	top: 127px;
+	left: 508px;
+	opacity: 0.5;
+}
+.content>.messageLists{
+	width: 600px;
+	height: 500px;
+	background:white;
+	float:left;
+}
+.message{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid black;
+	padding:0 10px;
+	box-sizing: border-box;
+}
+.message p{
+	width: 100%;
+	height: 75%;
+	font-size: 14px;
+	line-height: 25px;
+
+}
+.message .info{
+	width: 100%;
+	height: 25%;
+	height: auto;
+}
+.message .info .infoTime{
+	float: left;
+	color:black;
+	font-size: 13px;
+	opacity: 0.5;
+}
+.message .info .infoTime:hover{
+	opacity: 1;
+}
+.message .info .infoHandle{
+	float: right;
+
+}
+.message .info .infoHandle a{
+	font-size: 13px;
+	color:black;
+	opacity: 0.5;
+	display: inline-block;
+	background:url('../images/icons.png') no-repeat 0 0;
+	padding: 0 18px;
+}
+.message .info .infoHandle a:hover{
+	opacity: 1;
+}
+.message .info .infoHandle a:nth-child(3){
+	background-position: 0 -33px;
+}
+.message .info .infoHandle a:nth-child(2){
+	background-position: 0 -17px;
+}
+.message .info .infoHandle a:nth-child(1){
+	background-position: 0 0;
+}
+.footer{
+	width:1000px;
+	height: 40px;
+	margin:0 auto;
+	line-height: 40px;
+}
+.footer .page{
+	float: right;
+	margin-right: 10px;
+	color:black;
+}
+.page>a{
+	display: inline-block;
+	width: 20px;
+	height: 25px;
+	border:1px solid black;
+	box-sizing: border-box;
+	font-size: 13px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0 3px;
+}
+.page>a:hover{
+	background-color: crimson;
+}
+.cur{
+	background-color: crimson;
+}
